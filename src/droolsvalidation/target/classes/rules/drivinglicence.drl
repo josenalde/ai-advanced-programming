@@ -1,0 +1,17 @@
+import ufrn.br.ia.tecinfo.Candidato;
+
+rule "idade nao valida"
+    when 
+        c:Candidato(idade < 18)
+    then
+        c.setValido(false);
+        System.out.println(c.getNome() + " nao pode ter carteira de motorista");
+end
+
+rule "idade valida"
+    when
+        c:Candidato(idade >= 18)
+    then
+        c.setValido(true);
+        System.out.println(c.getNome() + " pode ter carteira de motorista, dirija com atenção");
+end
