@@ -1,0 +1,5 @@
+if petal_width_cat in range: (0.0, 0.2] then target == Iris-setosa
+if petal_width_cat in range: (0.2, 1.2] then target == Iris-setosa
+if petal_width_cat in range: (1.2, 1.5] then target == Iris-versicolor
+if petal_width_cat in range: (1.5, 1.9] then target == Iris-virginica
+if petal_width_cat in range: (1.9, 2.5] then target == Iris-virginica

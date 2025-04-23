@@ -1,0 +1,5 @@
+if body_mass_g_cat in range: (2699.9, 3475.0] then sex == female
+if body_mass_g_cat in range: (3475.0, 3800.0] then sex == female
+if body_mass_g_cat in range: (3800.0, 4300.0] then sex == male
+if body_mass_g_cat in range: (4300.0, 4990.0] then sex == female
+if body_mass_g_cat in range: (4990.0, 6300.0] then sex == male
