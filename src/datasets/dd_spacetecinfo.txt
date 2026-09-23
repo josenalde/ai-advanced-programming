@@ -1,0 +1,14 @@
+Dicionário de Dados
+SpaceTec-Info EAJ
+
+Coluna				Tipo		Descrição					Exemplo / Observações
+id_passageiro			Numérico	Identificador único do tripulante		1001, 1002
+modulo_estacao			Categórico	Módulo onde o tripulante estava			Comando, Laboratorio, Habitacao, Engenharia
+classe_bilhete			Ordinal		Classe da acomodação				1 (VIP), 2 (Padrão), 3 (Econômica)
+nome_tripulante			Texto		Nome e título formal				Dra. Elena Rostova, Ten. Mark Vance
+idade				Numérico	Idade do tripulante (anos)			28.0, NaN (contém dados faltantes!)
+parentes_a_bordo		Numérico	Quantidade de familiares na estação		0, 1, 3
+horas_treinamento		Numérico	Horas de treino de simulação espacial		120.5, 12.0
+traje_pressurizado		Categórico	Se vestia traje no momento (Sim/Nao)		Sim, Nao
+tarifa_creditos			Numérico	Valor pago em créditos cósmicos			150.00, 15.50
+resgatado			Binário		Variável Alvo (Target)				1 (Sim - Resgatado), 0 (Não - Perdido)
